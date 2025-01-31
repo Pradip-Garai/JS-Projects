@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(140, 38, 236);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #ffff;
+    height: 26rem;
+    width: 40rem;
+    margin-top: 8rem;
+}
+h2{
+    font-weight: 100;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+#result{
+  background-color: aliceblue;
+  height: 3rem;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(140,38,236);
+  margin-left: 16rem;
+  margin-top: 2rem;
+  font-size: 25px;
+  text-align: center;
+}
+button{
+    background-color: rgb(118, 0, 176);
+    color: #ffff;
+    padding: 15px;
+    padding-left: 3.4rem;
+    padding-right: 3.4rem;
+    margin-left: 14rem;
+    margin-top: 2rem;
+}
+.ans{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    font-size: 25px;
+}
+
+/* Mobail View */
+@media (min-width: 300px) and (max-width: 510px) {
+    h2 {
+        font-weight: 100;
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+    .container{
+        margin-left: 0.9rem;
+        margin-right: 0.9rem;
+    }
+    #result{
+        margin-left: 12rem;
+    }
+    button{
+        margin-left: 10rem;
+    }
+}

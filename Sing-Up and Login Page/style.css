@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.part{
+    background-color: red;
+    height: 100vh;
+}
+#p1{
+  margin-left: 0;
+  background-color: rgb(21, 21, 21);
+  width: 40%;
+}
+#p2{
+    background-color: rgba(142, 91, 222, 255);
+    width: 60%;
+}
+.form{
+    background-color: rgb(21, 21, 21);
+    height: 88vh;
+    width: 76%;
+    margin-left: 8.8rem;
+    margin-top: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h1{
+    color: #ffff;
+   position: absolute;
+   left: 20rem;
+   font-size: 39px;
+}
+p{
+    color: #ffff;
+    position: absolute;
+    left: 14rem;
+    top: 10rem;
+   font-size: 19px;
+}
+#inp1{
+    position: absolute;
+    width: 20%;
+    top: 15rem;
+    left: 14rem;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 2px solid rgb(50, 49, 49);
+    margin-bottom: 1.5rem;
+}
+#inp2{
+    position: absolute;
+    width: 20%;
+    top: 19rem;
+    left: 14rem;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 2px solid rgb(50, 49, 49);
+}
+#inp3{
+    position: absolute;
+    width: 20%;
+    top: 23rem;
+    left: 14rem;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 2px solid rgb(50, 49, 49);   
+}
+#inp4{
+    position: absolute;
+    width: 20%;
+    top: 27rem;
+    left: 14rem;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 2px solid rgb(50, 49, 49);   
+}
+#inp5{
+    position: absolute;
+    width: 20%;
+    top: 31rem;
+    left: 14rem;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 2px solid rgb(50, 49, 49);   
+}
+button{
+    position: absolute;
+    width: 20%;
+    top: 36rem;
+    left: 14rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    background-color: rgba(142, 91, 222, 255) ;
+    color: #ffff;
+    font-size: 18px;
+}
+.img{
+    background-color: antiquewhite;
+    height: 88vh;
+    width: 76%;
+    background: url(./im.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2.5rem;
+}

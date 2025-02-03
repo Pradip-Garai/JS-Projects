@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.log{
+    background-color: aqua;
+    height: 100vh;
+    width: 50%;
+}
+#l1{
+  background-color: rgba(142, 91, 222, 255);
+  width: 60%;
+}
+#l2{
+    background-color: rgb(21, 21, 21);
+    width: 40%;
+}
+.form{
+    background-color: rgb(21, 21, 21);
+    height: 88vh;
+    width: 76%;
+    margin-left:0;
+    margin-top: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.img{
+    background-color: antiquewhite;
+    height: 88vh;
+    width: 76%;
+    background: url(./im.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2.5rem;
+    margin-left: 14rem;
+}
+h1{
+   color: #ffff;
+   position: absolute;
+   left: 67.5rem;
+   font-size: 39px;
+   top: 5rem;
+}
+p{
+    color: #ffff;
+    position: absolute;
+    left: 62rem;
+    top: 12rem;
+   font-size: 19px;
+}
+#log1{
+    position: absolute;
+    width: 20%;
+    top: 18rem;
+    left: 62rem;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 2px solid rgb(50, 49, 49);
+    margin-bottom: 1.5rem;
+}
+#log2{
+    position: absolute;
+    width: 20%;
+    top: 24rem;
+    left: 62rem;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 2px solid rgb(50, 49, 49);
+}
+#log3{
+    position: absolute;
+    width: 20%;
+    top: 30rem;
+    left: 62rem;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 2px solid rgb(50, 49, 49);   
+}
+#forgetPassword{
+   position: absolute;
+   top: 32rem;
+   left: 73rem;
+}
+button{
+    position: absolute;
+    width: 20%;
+    top: 36rem;
+    left: 62rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    background-color: rgba(142, 91, 222, 255) ;
+    color: #ffff;
+    font-size: 18px;
+}

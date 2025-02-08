@@ -1,0 +1,147 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('https://images.unsplash.com/photo-1462332420958-a05d1e002413?w=1600&h=900&fit=crop') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 40%;
+    background: rgba(0, 0, 0, 0); /* Adjust transparency here */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, button {
+    padding: 12px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+button {
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    transform: scale(1.05);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ffcc00;
+    text-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+}
+strong{
+    color: green;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 50%;
+        padding: 25px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    input, button {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 60%;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    p {
+        font-size: 1em;
+    }
+    input, button {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 70%;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+    input, button {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 80%;
+        padding: 15px;
+    }
+    h1 {
+        font-size: 1.4em;
+    }
+    p {
+        font-size: 0.8em;
+    }
+    input, button {
+        padding: 8px;
+        font-size: 0.8em;
+    }
+}

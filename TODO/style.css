@@ -1,0 +1,73 @@
+body{
+    background-color: #577BC1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 43rem;
+    width: 45%;
+    background-color: #ffff;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    overflow: auto;
+}
+.head{
+    background-color: #000957;
+    height: 7rem;
+    color: #ffff;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+  font-size: 45px;
+  word-spacing: 10px;
+}
+.input{
+    height: 8rem;
+}
+input{
+    margin-left: 1.5rem;
+    height: 4rem;
+    width: 75%;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+button{
+    height: 4rem;
+    width: 15%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFEB00;
+    border: none;
+    color: #000;
+    font-size: 25px;
+    margin-left: 1rem;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+#task{
+  background-color: #D1F8EF;
+  height: 4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 22px;
+  text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: #E82561;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+h1{
+    font-size: 50px;
+    font-family: cursive;
+    color: pink;
+    margin-top: 3rem;
+    text-align: center;
+}
+button{
+    height: 4rem;
+    width: 10%;
+    margin-top: 3rem;
+}
+#yes{
+    margin-right: 2rem;
+    margin-left: 37rem;
+}
+#no{
+    position: absolute;
+}
+#answer{
+
+    height: 5rem;
+    width: 40%;
+    margin-top: 3rem;
+    margin-left: 30rem;
+    color: RED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: monospace;
+}
